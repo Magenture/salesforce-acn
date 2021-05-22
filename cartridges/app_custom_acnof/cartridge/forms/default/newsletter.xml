@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<form xmlns="http://www.demandware.com/xml/form/2008-04-19">
+    <field formid="fullName" label="label.input.fullname" type="string" mandatory="true" binding="fullName"
+           max-length="100" missing-error="fullname.missing" range-error="error.message.100orless"/>
+
+    <include formid="contactInfoFields" name="contactInfo"/>
+
+    <field formid="subscribe" label="label.input.subscribe" type="boolean" checked="true" default-value="true" mandatory="false" />
+
+</form>

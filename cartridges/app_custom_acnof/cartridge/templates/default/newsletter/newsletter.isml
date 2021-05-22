@@ -1,0 +1,67 @@
+<isdecorate template="/common/layout/page">
+<div class="row">
+    ${Resource.msg('newsletter.title','forms',null)}
+</div>
+
+<form
+    action="${pdict.actionURL}"
+    class="newsletter-form"
+    method="POST"
+    <isprint value="${pdict.newsletterForm.attributes}" encoding="off" />>
+    <!-- Name -->
+    <div class="row">
+        <!-- Full Name -->
+        <div class="col-6">
+            <div class="form-group
+                ${pdict.newsletterForm.fullName.mandatory === true ? 'required' : ''}">
+                <label class="form-control-label" for="fullName">
+                    <isprint value="${pdict.newsletterForm.fullName.label}" encoding="htmlcontent" />
+                </label>
+                <input type="text" class="form-control" id="fullName"
+                    <isprint value="${pdict.newsletterForm.fullName.attributes}" encoding="off" />
+                    autocomplete="given-name">
+                <div class="invalid-feedback"></div>
+            </div>
+        
+    
+    <!-- Phone Number -->
+    <div class="form-group
+        ${pdict.newsletterForm.contactInfoFields.phone.mandatory === true ? 'required' : ''}">
+        <label class="form-control-label" for="phone">
+           ${Resource.msg('field.customer.phone.number','checkout',null)}
+        </label>
+        <input type="tel" class="form-control" id="phone"
+            <isprint value="${pdict.newsletterForm.contactInfoFields.phone.attributes}" encoding="off" />
+            autocomplete="tel"/>
+        <div class="invalid-feedback"></div>
+    </div>
+
+    <!-- Email -->
+    <div class="form-group
+        ${pdict.newsletterForm.contactInfoFields.email.mandatory === true ? 'required' : ''}
+        ${pdict.newsletterForm.contactInfoFields.email.htmlName}" >
+        <label class="form-control-label" for="email">
+            ${Resource.msg('field.customer.email','checkout',null)}
+        </label>
+        <input type="email" class="form-control email" id="email"
+            <isprint value="${pdict.newsletterForm.contactInfoFields.email.attributes}" encoding="off"/>
+            aria-describedby="emailInvalidMessage" />
+        <div class="invalid-feedback" id="emailInvalidMessage"></div>
+    </div>
+    <input type="checkbox" class="form-control" id="subscribe" name="${pdict.newsletterForm.subscribe.htmlName}" value="true" checked/>
+                <label class="form-control-label" for="subscribe">
+                    ${pdict.newsletterForm.subscribe.label}
+                </label>
+    </div>
+    <div class="col-6"></div>
+    </div>
+
+    <!-- Cancel and Save Buttons -->
+    <div class="row">
+        <div class="col-6">
+            <button type="submit" name="save" class="btn btn-save btn-block btn-primary">${Resource.msg('button.save','account',null)}</button>
+        </div>
+    </div>
+
+</form>
+</isdecorate>
