@@ -116,7 +116,7 @@
   ],
   "packageName": "app_custom_acnof",
   "paths": {
-    "base": "./cartridges/app_storefront_base/"  
+    "base": "./cartridges/app_storefront_base/"
   },
   "babel": {
     "presets": [
