@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventory xmlns="http://www.demandware.com/xml/impex/inventory/2007-05-31">
+    <inventory-list>
+        <header list-id="accenture-brasil-inventory">
+            <default-instock>true</default-instock>
+            <use-bundle-inventory-only>false</use-bundle-inventory-only>
+            <on-order>true</on-order>
+        </header>
+
+        <records>
+            <record product-id="abobrinha">
+                <allocation>100</allocation>
+                <allocation-timestamp>2021-05-11T23:07:28.000Z</allocation-timestamp>
+                <perpetual>true</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>100</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="alface">
+                <allocation>100</allocation>
+                <allocation-timestamp>2021-05-11T23:07:28.000Z</allocation-timestamp>
+                <perpetual>true</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>100</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="banana">
+                <allocation>1000.0</allocation>
+                <allocation-timestamp>2021-05-25T02:27:09.705Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>1000.0</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="batata_doce">
+                <allocation>1000.0</allocation>
+                <allocation-timestamp>2021-05-25T02:28:26.224Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>1000.0</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="bolo_fit">
+                <allocation>1000.0</allocation>
+                <allocation-timestamp>2021-05-25T02:29:36.602Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>1000.0</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="carne_ancho">
+                <allocation>100</allocation>
+                <allocation-timestamp>2021-05-11T23:07:28.000Z</allocation-timestamp>
+                <perpetual>true</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>100</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="couve">
+                <allocation>1000.0</allocation>
+                <allocation-timestamp>2021-05-25T02:30:54.909Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>1000.0</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="maca">
+                <allocation>100</allocation>
+                <allocation-timestamp>2021-05-11T23:07:28.000Z</allocation-timestamp>
+                <perpetual>true</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>100</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="ovocaipira">
+                <allocation>100</allocation>
+                <allocation-timestamp>2021-05-11T23:07:28.000Z</allocation-timestamp>
+                <perpetual>true</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>100</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="ovocodorna">
+                <allocation>1000.0</allocation>
+                <allocation-timestamp>2021-05-25T02:31:53.922Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>1000.0</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="ovos20">
+                <allocation>1000.0</allocation>
+                <allocation-timestamp>2021-05-25T02:32:56.939Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>1000.0</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="peito_frango">
+                <allocation>100</allocation>
+                <allocation-timestamp>2021-05-11T23:07:28.000Z</allocation-timestamp>
+                <perpetual>true</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>100</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="queijo_minas">
+                <allocation>100</allocation>
+                <allocation-timestamp>2021-05-11T23:07:28.000Z</allocation-timestamp>
+                <perpetual>true</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>100</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="queijo_suico">
+                <allocation>1000.0</allocation>
+                <allocation-timestamp>2021-05-25T02:33:46.158Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>1000.0</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="repolho">
+                <allocation>1000.0</allocation>
+                <allocation-timestamp>2021-05-25T02:34:38.621Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>1000.0</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="tempero_carne">
+                <allocation>100</allocation>
+                <allocation-timestamp>2021-05-11T23:07:28.000Z</allocation-timestamp>
+                <perpetual>true</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>100</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="torta_fit">
+                <allocation>100</allocation>
+                <allocation-timestamp>2021-05-11T23:07:28.000Z</allocation-timestamp>
+                <perpetual>true</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>100</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+        </records>
+    </inventory-list>
+    <inventory-list>
+        <header list-id="acn-inventory">
+            <default-instock>true</default-instock>
+            <description>Inventory for ACN Organic Food</description>
+            <use-bundle-inventory-only>false</use-bundle-inventory-only>
+            <on-order>false</on-order>
+        </header>
+
+        <records>
+            <record product-id="abobrinha">
+                <allocation>1000</allocation>
+                <allocation-timestamp>2021-05-19T23:21:42.000Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>1000</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="alface">
+                <allocation>100</allocation>
+                <allocation-timestamp>2021-05-11T23:07:28.000Z</allocation-timestamp>
+                <perpetual>true</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>100</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="banana">
+                <allocation>1000.0</allocation>
+                <allocation-timestamp>2021-05-25T02:26:57.625Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>1000.0</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="batata_doce">
+                <allocation>1000.0</allocation>
+                <allocation-timestamp>2021-05-25T02:26:36.333Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>1000.0</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="bolo_fit">
+                <allocation>1000.0</allocation>
+                <allocation-timestamp>2021-05-25T02:29:44.489Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>1000.0</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="carne_ancho">
+                <allocation>1000</allocation>
+                <allocation-timestamp>2021-05-22T20:47:17.000Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>1000</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="couve">
+                <allocation>1000.0</allocation>
+                <allocation-timestamp>2021-05-25T02:31:04.198Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>1000.0</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="maca">
+                <allocation>1000.0</allocation>
+                <allocation-timestamp>2021-05-25T01:09:47.818Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>1000.0</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="ovocaipira">
+                <allocation>100</allocation>
+                <allocation-timestamp>2021-05-11T23:07:28.000Z</allocation-timestamp>
+                <perpetual>true</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>100</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="ovocodorna">
+                <allocation>1000.0</allocation>
+                <allocation-timestamp>2021-05-25T02:32:01.771Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <in-stock-date>2021-05-24Z</in-stock-date>
+                <in-stock-datetime>2021-05-24T03:00:00.000Z</in-stock-datetime>
+                <ats>1000.0</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="ovos20">
+                <allocation>1000.0</allocation>
+                <allocation-timestamp>2021-05-25T02:33:04.319Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>1000.0</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="peito_frango">
+                <allocation>100</allocation>
+                <allocation-timestamp>2021-05-11T23:07:28.000Z</allocation-timestamp>
+                <perpetual>true</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>100</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="queijo_minas">
+                <allocation>100</allocation>
+                <allocation-timestamp>2021-05-11T23:07:28.000Z</allocation-timestamp>
+                <perpetual>true</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>100</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="queijo_suico">
+                <allocation>1000.0</allocation>
+                <allocation-timestamp>2021-05-25T02:33:54.869Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>1000.0</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="repolho">
+                <allocation>1000.0</allocation>
+                <allocation-timestamp>2021-05-25T02:34:45.128Z</allocation-timestamp>
+                <perpetual>false</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>1000.0</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="tempero_carne">
+                <allocation>100</allocation>
+                <allocation-timestamp>2021-05-11T23:07:28.000Z</allocation-timestamp>
+                <perpetual>true</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>100</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+            <record product-id="torta_fit">
+                <allocation>100</allocation>
+                <allocation-timestamp>2021-05-11T23:07:28.000Z</allocation-timestamp>
+                <perpetual>true</perpetual>
+                <preorder-backorder-handling>none</preorder-backorder-handling>
+                <ats>100</ats>
+                <on-order>0</on-order>
+                <turnover>0</turnover>
+            </record>
+
+        </records>
+    </inventory-list>
+</inventory>

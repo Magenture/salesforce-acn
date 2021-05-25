@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="http://www.demandware.com/xml/impex/catalog/2006-10-31" catalog-id="accenture_products_master">
+    <header>
+        <image-settings>
+            <internal-location base-path="/"/>
+            <view-types>
+                <view-type>large</view-type>
+                <view-type>medium</view-type>
+                <view-type>small</view-type>
+                <view-type>swatch</view-type>
+            </view-types>
+            <alt-pattern>${productname}</alt-pattern>
+            <title-pattern>${productname}</title-pattern>
+        </image-settings>
+    </header>
+
+    <category category-id="root">
+        <display-name xml:lang="x-default">Accenture Brasil Catalog</display-name>
+        <online-flag>true</online-flag>
+        <template/>
+        <page-attributes/>
+    </category>
+
+    <category category-id="CarnesAves">
+        <display-name xml:lang="x-default">Carnes e Aves</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Horizontal</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="Frutas">
+        <display-name xml:lang="x-default">Frutas</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Horizontal</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="Legumes">
+        <display-name xml:lang="x-default">Legumes</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Horizontal</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="Ovos">
+        <display-name xml:lang="x-default">Ovos</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Horizontal</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="Queijos">
+        <display-name xml:lang="x-default">Queijos</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Horizontal</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="TemperosDiferenciados">
+        <display-name xml:lang="x-default">Temperos Diferenciados</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Horizontal</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="TortasBolos">
+        <display-name xml:lang="x-default">Tortas e Bolos Fit</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Horizontal</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <category category-id="Verduras">
+        <display-name xml:lang="x-default">Verduras</display-name>
+        <online-flag>true</online-flag>
+        <parent>root</parent>
+        <template/>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="enableCompare">false</custom-attribute>
+            <custom-attribute attribute-id="headerMenuOrientation">Horizontal</custom-attribute>
+            <custom-attribute attribute-id="showInMenu">true</custom-attribute>
+        </custom-attributes>
+    </category>
+
+    <product product-id="abobrinha">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Abobrinha</display-name>
+        <display-name xml:lang="pt-BR">Abobrinha</display-name>
+        <short-description xml:lang="x-default">Abobrinha faz bem para a saúde!</short-description>
+        <short-description xml:lang="pt-BR">Abobrinha é bom para saúde.</short-description>
+        <long-description xml:lang="x-default">A abobrinha pode substituir os carboidratos das refeições, o que reduz os níveis de açúcar no sangue e a insulina. E por conter vitaminas do complexo B, ajuda a metabolizar a glicose no organismo. Também pode ser eficaz na prevenção de complicações relacionadas à diabetes por conta de seus antioxidantes.</long-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="imag/abobrinha-italiana.png"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="imag/abobrinha-italiana.png"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="imag/abobrinha-italiana.png"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="imag/abobrinha-italiana.png"/>
+            </image-group>
+        </images>
+        <tax-class-id>padrao</tax-class-id>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="availableForInStorePickup">true</custom-attribute>
+        </custom-attributes>
+        <classification-category>Legumes</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="alface">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Alface Mimosa</display-name>
+        <display-name xml:lang="pt-BR">Alface Mimosa</display-name>
+        <short-description xml:lang="pt-BR">Alface é bom para saúde.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="imag/legumes-online-horto-sintra-26.png"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="imag/legumes-online-horto-sintra-26.png"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="imag/legumes-online-horto-sintra-26.png"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="imag/legumes-online-horto-sintra-26.png"/>
+            </image-group>
+        </images>
+        <page-attributes/>
+        <classification-category>Verduras</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="banana">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Banana Prata - Cacho</display-name>
+        <display-name xml:lang="pt-BR">Banana Prata - Cacho</display-name>
+        <short-description xml:lang="x-default">Banana faz bem!</short-description>
+        <short-description xml:lang="pt-BR">Banana é bom para saúde.</short-description>
+        <long-description xml:lang="x-default">A fruta mais popular do Brasil pode prevenir acidente vascular cerebral (AVC). Cientistas britânicos e italianos sugerem três bananas por dia para obter o benefício.</long-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="imag/cc143e3f49d34923320905e1a3837768.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="imag/cc143e3f49d34923320905e1a3837768.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="imag/cc143e3f49d34923320905e1a3837768.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="imag/cc143e3f49d34923320905e1a3837768.jpg"/>
+            </image-group>
+        </images>
+        <tax-class-id>padrao</tax-class-id>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="availableForInStorePickup">true</custom-attribute>
+        </custom-attributes>
+        <product-links>
+            <product-link product-id="abobrinha" type="cross-sell"/>
+            <product-link product-id="abobrinha" type="up-sell"/>
+        </product-links>
+        <classification-category>Frutas</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="batata_doce">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Batata Doce</display-name>
+        <display-name xml:lang="pt-BR">Batata Doce</display-name>
+        <short-description xml:lang="x-default">As fibras e antioxidantes presentes na batata-doce promovem a saúde intestinal e faz bem para a saúde!</short-description>
+        <long-description xml:lang="x-default">Além de poder ser consumida antes do treino para dar energia, ela também pode ser utilizada na refeição pós treino, que deve ser rica em proteínas para recuperar o músculo e estimular a hipertrofia. Para isso, deve-se consumir a batata doce com fontes magras de proteínas, como frango grelhado e claras de ovo.</long-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="imag/batata-doce.png"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="imag/batata-doce.png"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="imag/batata-doce.png"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="imag/batata-doce.png"/>
+            </image-group>
+        </images>
+        <tax-class-id>padrao</tax-class-id>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="availableForInStorePickup">true</custom-attribute>
+        </custom-attributes>
+        <classification-category>Legumes</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="bolo_fit">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Bolo Fit de Banana</display-name>
+        <display-name xml:lang="pt-BR">Bolo Fit de Banana</display-name>
+        <short-description xml:lang="pt-BR">Não contém leite, farinha e açucar. Adoçado com Xilitol. Coma à vontade e sem culpa!</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="imag/bolo-fit-de-banana-e-aveia-dieta.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="imag/bolo-fit-de-banana-e-aveia-dieta.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="imag/bolo-fit-de-banana-e-aveia-dieta.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="imag/bolo-fit-de-banana-e-aveia-dieta.jpg"/>
+            </image-group>
+        </images>
+        <page-attributes/>
+        <classification-category>TortasBolos</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="carne_ancho">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Bife Ancho</display-name>
+        <display-name xml:lang="pt-BR">Bife Ancho</display-name>
+        <short-description xml:lang="pt-BR">Bife Ancho é bom para saúde.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="imag/bife-ancho-angus-certificado-700g-934172_1200x1200.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="imag/bife-ancho-angus-certificado-700g-934172_1200x1200.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="imag/bife-ancho-angus-certificado-700g-934172_1200x1200.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="imag/bife-ancho-angus-certificado-700g-934172_1200x1200.jpg"/>
+            </image-group>
+        </images>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="availableForInStorePickup">true</custom-attribute>
+        </custom-attributes>
+        <classification-category>CarnesAves</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="couve">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Couve Manteiga</display-name>
+        <display-name xml:lang="pt-BR">Couve Manteiga</display-name>
+        <short-description xml:lang="pt-BR">A couve-manteiga é rica em fibras, é fonte de ferro, cálcio, vitaminas A, C, k e ácido fólico.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="imag/img_3306.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="imag/img_3306.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="imag/img_3306.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="imag/img_3306.jpg"/>
+            </image-group>
+        </images>
+        <page-attributes/>
+        <classification-category>Verduras</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="maca">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Maçã</display-name>
+        <display-name xml:lang="pt-BR">Maçã</display-name>
+        <short-description xml:lang="x-default">Maçã faz bem!</short-description>
+        <short-description xml:lang="pt-BR">Maçã é bom para saúde.</short-description>
+        <long-description xml:lang="x-default">As maçãs contêm poderosos nutrientes que estimulam o sistema imunológico. Possuem fibras que ajudam a transportar resíduos para fora do corpo. Além disso, a fruta é fonte de vitamina C que contribui para que o organismo desenvolva resistência. Sendo assim, protege o organismo de doenças como gripes e resfriados.</long-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="imag/3159.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="imag/3159.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="imag/3159.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="imag/3159.jpg"/>
+            </image-group>
+        </images>
+        <tax-class-id>padrao</tax-class-id>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="availableForInStorePickup">true</custom-attribute>
+        </custom-attributes>
+        <product-links>
+            <product-link product-id="abobrinha" type="cross-sell"/>
+            <product-link product-id="abobrinha" type="up-sell"/>
+        </product-links>
+        <classification-category>Frutas</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="ovocaipira">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Ovo Caipira</display-name>
+        <display-name xml:lang="pt-BR">Ovo Caipira</display-name>
+        <short-description xml:lang="pt-BR">Ovo Caipira é bom para saúde.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="imag/OVOCAIPIRA.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="imag/OVOCAIPIRA.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="imag/OVOCAIPIRA.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="imag/OVOCAIPIRA.jpg"/>
+            </image-group>
+        </images>
+        <page-attributes/>
+        <classification-category>Ovos</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="ovocodorna">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Ovos de Codorna c/ 30</display-name>
+        <short-description xml:lang="x-default">Ovo de Codorna é bom para saúde.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="imag/OvoCodorna.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="imag/OvoCodorna.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="imag/OvoCodorna.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="imag/OvoCodorna.jpg"/>
+            </image-group>
+        </images>
+        <page-attributes/>
+        <classification-category>Ovos</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="ovos20">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Ovos Brancos Tipo Jumbo c/ 20 unidades</display-name>
+        <short-description xml:lang="pt-BR">Ovo Jumbo é bom para saúde.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="imag/1198616.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="imag/1198616.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="imag/1198616.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="imag/1198616.jpg"/>
+            </image-group>
+        </images>
+        <page-attributes/>
+        <classification-category>Ovos</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="peito_frango">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Peito de Frango Desfiado</display-name>
+        <display-name xml:lang="pt-BR">Peito de Frango</display-name>
+        <short-description xml:lang="pt-BR">Peito de Frango é bom para saúde.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="imag/economia-frango-desfiado.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="imag/economia-frango-desfiado.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="imag/economia-frango-desfiado.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="imag/economia-frango-desfiado.jpg"/>
+            </image-group>
+        </images>
+        <page-attributes/>
+        <classification-category>CarnesAves</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="queijo_minas">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Queijo Mineiro</display-name>
+        <display-name xml:lang="pt-BR">Queijo Mineiro</display-name>
+        <short-description xml:lang="pt-BR">Queijo Mineiro é bom para saúde.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="imag/queijominas.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="imag/queijominas.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="imag/queijominas.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="imag/queijominas.jpg"/>
+            </image-group>
+        </images>
+        <page-attributes/>
+        <classification-category>Queijos</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="queijo_suico">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Queijo Suiço Raclette Importado</display-name>
+        <display-name xml:lang="pt-BR">Queijo Suiço Raclette Importado</display-name>
+        <short-description xml:lang="pt-BR">Queijo Suiço Raclette é bom para saúde.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="imag/bigstock-177812008-1-a4068640.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="imag/bigstock-177812008-1-a4068640.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="imag/bigstock-177812008-1-a4068640.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="imag/bigstock-177812008-1-a4068640.jpg"/>
+            </image-group>
+        </images>
+        <page-attributes/>
+        <classification-category>Queijos</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="repolho">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Repolho Roxo</display-name>
+        <display-name xml:lang="pt-BR">Repolho Roxo</display-name>
+        <short-description xml:lang="pt-BR">Pouco calórico, ótima fonte de vitamina C e rico em fibras. Ajuda a fortalecer o sistema imunológico e, por conter selênio, favorece uma pele saudável. Também é cicatrizante e combate gripes e resfriados.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="imag/7430.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="imag/7430.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="imag/7430.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="imag/7430.jpg"/>
+            </image-group>
+        </images>
+        <page-attributes/>
+        <classification-category>Verduras</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="tempero_carne">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Tempero para Carnes</display-name>
+        <display-name xml:lang="pt-BR">Tempero para Carnes</display-name>
+        <short-description xml:lang="pt-BR">Tempero para Carnes é bom para saúde.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="imag/tempero.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="imag/tempero.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="imag/tempero.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="imag/tempero.jpg"/>
+            </image-group>
+        </images>
+        <page-attributes/>
+        <classification-category>TemperosDiferenciados</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="tomate">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Tomate</display-name>
+        <display-name xml:lang="pt-BR">Tomate</display-name>
+        <short-description xml:lang="x-default">Tomate faz bem!</short-description>
+        <short-description xml:lang="pt-BR">Tomate é bom para saúde.</short-description>
+        <long-description xml:lang="x-default">O tomate é rico em vitamina C, nutriente essencial ao organismo, que também é um antioxidante. Contém potássio, que ajuda a controlar a pressão arterial e a prevenir doenças cardiovasculares.</long-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="imag/tomate_345187874.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="imag/tomate_345187874.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="imag/tomate_345187874.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="imag/tomate_345187874.jpg"/>
+            </image-group>
+        </images>
+        <tax-class-id>padrao</tax-class-id>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="availableForInStorePickup">true</custom-attribute>
+        </custom-attributes>
+        <product-links>
+            <product-link product-id="alface" type="cross-sell"/>
+            <product-link product-id="alface" type="up-sell"/>
+        </product-links>
+        <classification-category>Frutas</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <product product-id="torta_fit">
+        <ean/>
+        <upc/>
+        <unit/>
+        <min-order-quantity>1</min-order-quantity>
+        <step-quantity>1</step-quantity>
+        <display-name xml:lang="x-default">Torta Fit</display-name>
+        <display-name xml:lang="pt-BR">Torta Fit</display-name>
+        <short-description xml:lang="pt-BR">Torta Fit é bom para saúde.</short-description>
+        <store-force-price-flag>false</store-force-price-flag>
+        <store-non-inventory-flag>false</store-non-inventory-flag>
+        <store-non-revenue-flag>false</store-non-revenue-flag>
+        <store-non-discountable-flag>false</store-non-discountable-flag>
+        <online-flag>true</online-flag>
+        <available-flag>false</available-flag>
+        <searchable-flag>true</searchable-flag>
+        <images>
+            <image-group view-type="large">
+                <image path="imag/tortafrango.jpg"/>
+            </image-group>
+            <image-group view-type="medium">
+                <image path="imag/tortafrango.jpg"/>
+            </image-group>
+            <image-group view-type="small">
+                <image path="imag/tortafrango.jpg"/>
+            </image-group>
+            <image-group view-type="swatch">
+                <image path="imag/tortafrango.jpg"/>
+            </image-group>
+        </images>
+        <page-attributes/>
+        <classification-category>TortasBolos</classification-category>
+        <pinterest-enabled-flag>false</pinterest-enabled-flag>
+        <facebook-enabled-flag>false</facebook-enabled-flag>
+        <store-attributes>
+            <force-price-flag>false</force-price-flag>
+            <non-inventory-flag>false</non-inventory-flag>
+            <non-revenue-flag>false</non-revenue-flag>
+            <non-discountable-flag>false</non-discountable-flag>
+        </store-attributes>
+    </product>
+
+    <category-assignment category-id="CarnesAves" product-id="carne_ancho">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="CarnesAves" product-id="peito_frango">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="Frutas" product-id="banana">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="Frutas" product-id="maca">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="Frutas" product-id="tomate">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="Legumes" product-id="abobrinha">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="Legumes" product-id="batata_doce">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="Ovos" product-id="ovocaipira">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="Ovos" product-id="ovocodorna">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="Ovos" product-id="ovos20">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="Queijos" product-id="queijo_minas">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="Queijos" product-id="queijo_suico">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="TemperosDiferenciados" product-id="tempero_carne">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="TortasBolos" product-id="bolo_fit">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="TortasBolos" product-id="torta_fit">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="Verduras" product-id="alface">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="Verduras" product-id="couve">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="Verduras" product-id="repolho">
+        <primary-flag>true</primary-flag>
+    </category-assignment>
+
+    <category-assignment category-id="root" product-id="abobrinha"/>
+
+    <category-assignment category-id="root" product-id="alface"/>
+
+    <category-assignment category-id="root" product-id="banana"/>
+
+    <category-assignment category-id="root" product-id="batata_doce"/>
+
+    <category-assignment category-id="root" product-id="bolo_fit"/>
+
+    <category-assignment category-id="root" product-id="carne_ancho"/>
+
+    <category-assignment category-id="root" product-id="couve"/>
+
+    <category-assignment category-id="root" product-id="maca"/>
+
+    <category-assignment category-id="root" product-id="ovocaipira"/>
+
+    <category-assignment category-id="root" product-id="ovocodorna"/>
+
+    <category-assignment category-id="root" product-id="ovos20"/>
+
+    <category-assignment category-id="root" product-id="peito_frango"/>
+
+    <category-assignment category-id="root" product-id="queijo_minas"/>
+
+    <category-assignment category-id="root" product-id="queijo_suico"/>
+
+    <category-assignment category-id="root" product-id="repolho"/>
+
+    <category-assignment category-id="root" product-id="tempero_carne"/>
+
+    <category-assignment category-id="root" product-id="tomate"/>
+
+    <category-assignment category-id="root" product-id="torta_fit"/>
+
+    <recommendation source-id="alface" source-type="product" target-id="tomate" type="1"/>
+
+    <recommendation source-id="carne_ancho" source-type="product" target-id="tempero_carne" type="1"/>
+
+    <recommendation source-id="maca" source-type="product" target-id="abobrinha" type="1"/>
+
+    <recommendation source-id="maca" source-type="product" target-id="banana" type="1"/>
+
+    <recommendation source-id="queijo_minas" source-type="product" target-id="ovocaipira" type="1"/>
+
+</catalog>

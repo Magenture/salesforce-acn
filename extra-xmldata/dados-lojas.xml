@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stores xmlns="http://www.demandware.com/xml/impex/store/2007-04-30">
+    <store store-id="Perdizes">
+        <name>Perdizes</name>
+        <address1>Rua Vitorino Carmilo, 815</address1>
+        <city>São Paulo</city>
+        <postal-code>01153-000</postal-code>
+        <state-code>São Paulo</state-code>
+        <country-code>BR</country-code>
+        <phone>+551148282949</phone>
+        <store-hours xml:lang="x-default">Seg/Sex 08 às 18h | Sáb 09 às 14h</store-hours>
+        <latitude>-23.5489</latitude>
+        <longitude>-46.6388</longitude>
+        <inventory-list-id>acn-inventory</inventory-list-id>
+        <store-locator-enabled-flag>true</store-locator-enabled-flag>
+        <demandware-pos-enabled-flag>false</demandware-pos-enabled-flag>
+        <pos-enabled-flag>true</pos-enabled-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">acn-inventory</custom-attribute>
+        </custom-attributes>
+    </store>
+
+    <store store-id="SaoCaetano">
+        <name>São Caetano do Sul</name>
+        <address1>Av. Pres. Kennedy, 2117 - Santa Paula</address1>
+        <city>São Paulo</city>
+        <postal-code>09560-010</postal-code>
+        <state-code>SP</state-code>
+        <country-code>BR</country-code>
+        <phone>(11) 3633-9090</phone>
+        <store-hours xml:lang="x-default">Seg/Sex 08 às 18h | Sáb 09 às 14h</store-hours>
+        <latitude>-23.631536</latitude>
+        <longitude>-46.556881</longitude>
+        <inventory-list-id>acn-inventory</inventory-list-id>
+        <store-locator-enabled-flag>true</store-locator-enabled-flag>
+        <demandware-pos-enabled-flag>false</demandware-pos-enabled-flag>
+        <pos-enabled-flag>true</pos-enabled-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">acn-inventory</custom-attribute>
+        </custom-attributes>
+    </store>
+	
+	<store store-id="Taboao">
+        <name>Taboão da Serra</name>
+		<address1>R. João Fernandes, 28 - Jardim Santa Cruz</address1>
+		<city>Taboão da Serra</city>
+		<postal-code>06774-200</postal-code>
+		<state-code>SP</state-code>
+		<phone>(11) 98581-6885</phone>
+		<store-hours xml:lang="x-default">Seg/Sex 08 às 18h | Sáb 09 às 14h</store-hours>
+        <latitude>-23.6399952</latitude>
+		<longitude>-46.803006</longitude>
+        <inventory-list-id>acn-inventory</inventory-list-id>
+        <store-locator-enabled-flag>true</store-locator-enabled-flag>
+        <demandware-pos-enabled-flag>false</demandware-pos-enabled-flag>
+        <pos-enabled-flag>true</pos-enabled-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">acn-inventory</custom-attribute>
+        </custom-attributes>
+    </store>
+	
+	<store store-id="guaia">
+        <name>Guaianases</name>
+		<address1>R. Mario Ferraz de Souza, 600 - Guaianases</address1>
+		<city>São Paulo</city>
+		<postal-code>08470-060</postal-code>
+		<state-code>SP</state-code>
+        <phone>(11) 96632-0505</phone>
+		<store-hours xml:lang="x-default">Seg/Sex 08 às 18h | Sáb 09 às 14h</store-hours>
+        <latitude>-23.57602251412204</latitude>
+		<longitude> -46.40872723538851</longitude>
+        <inventory-list-id>acn-inventory</inventory-list-id>
+        <store-locator-enabled-flag>true</store-locator-enabled-flag>
+        <demandware-pos-enabled-flag>false</demandware-pos-enabled-flag>
+        <pos-enabled-flag>true</pos-enabled-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">acn-inventory</custom-attribute>
+        </custom-attributes>
+    </store>
+	
+	<store store-id="interlagos">
+        <name>Interlagos</name>
+		<address1>Av. do Jangadeiro, 426 - Interlagos</address1>
+		<city>São Paulo</city>
+		<postal-code>04815-020</postal-code>
+		<state-code>SP</state-code>
+        <phone>(11) 99414-1229</phone>
+		<store-hours xml:lang="x-default">Seg/Sex 08 às 18h | Sáb 09 às 14h</store-hours>
+        <latitude>-23.70567267901522</latitude>
+		<longitude> -46.69299207265972</longitude>
+        <inventory-list-id>acn-inventory</inventory-list-id>
+        <store-locator-enabled-flag>true</store-locator-enabled-flag>
+        <demandware-pos-enabled-flag>false</demandware-pos-enabled-flag>
+        <pos-enabled-flag>true</pos-enabled-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">acn-inventory</custom-attribute>
+        </custom-attributes>
+    </store>
+	
+	<store store-id="alphav">
+        <name>Alphaville</name>
+		<address1>Al. Rio Negro, 1406 - Alphaville</address1>
+		<city>Barueri</city>
+		<postal-code>06454-000</postal-code>
+		<state-code>SP</state-code>
+        <phone>(11) 3363-6363</phone>
+		<store-hours xml:lang="x-default">Seg/Sex 08 às 18h | Sáb 09 às 14h</store-hours>
+        <latitude>-23.493117</latitude>
+		<longitude>-46.848701</longitude>
+        <inventory-list-id>acn-inventory</inventory-list-id>
+        <store-locator-enabled-flag>true</store-locator-enabled-flag>
+        <demandware-pos-enabled-flag>false</demandware-pos-enabled-flag>
+        <pos-enabled-flag>true</pos-enabled-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">acn-inventory</custom-attribute>
+        </custom-attributes>
+    </store>
+	
+	<store store-id="brooklyn">
+        <name>Brooklin</name>
+		<address1>Rua Nova York, 245 - Brooklin</address1>
+		<city>São Paulo</city>
+		<postal-code>04560-000</postal-code>
+		<state-code>SP</state-code>
+        <phone>(11) 3214-6636</phone>
+		<store-hours xml:lang="x-default">Seg/Sex 08 às 18h | Sáb 09 às 14h</store-hours>
+        <latitude>-23.614888</latitude>
+		<longitude>-46.684946</longitude>
+        <inventory-list-id>acn-inventory</inventory-list-id>
+        <store-locator-enabled-flag>true</store-locator-enabled-flag>
+        <demandware-pos-enabled-flag>false</demandware-pos-enabled-flag>
+        <pos-enabled-flag>true</pos-enabled-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">acn-inventory</custom-attribute>
+        </custom-attributes>
+    </store>
+	
+	<store store-id="klabin">
+        <name>Chácara Klabin</name>
+		<address1>Av. Ricardo Jafet, 1900</address1>
+		<city>São Paulo</city>
+		<postal-code>04230-000</postal-code>
+		<state-code>SP</state-code>
+        <phone>(11) 3321-5545</phone>
+		<store-hours xml:lang="x-default">Seg/Sex 08 às 18h | Sáb 09 às 14h</store-hours>
+        <latitude>-23.59174</latitude>
+		<longitude>-46.621025</longitude>
+        <inventory-list-id>acn-inventory</inventory-list-id>
+        <store-locator-enabled-flag>true</store-locator-enabled-flag>
+        <demandware-pos-enabled-flag>false</demandware-pos-enabled-flag>
+        <pos-enabled-flag>true</pos-enabled-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">acn-inventory</custom-attribute>
+        </custom-attributes>
+    </store>
+	
+	<store store-id="higien">
+        <name>Higienópolis</name>
+		<address1>Avenida Higienópolis, 618</address1>
+		<city>São Paulo</city>
+		<postal-code>01151-030</postal-code>
+		<state-code>SP</state-code>
+        <phone>(11) 3838-5665</phone>
+		<store-hours xml:lang="x-default">Seg/Sex 08 às 18h | Sáb 09 às 14h</store-hours>
+        <latitude>-23.542247</latitude>
+		<longitude>-46.657636</longitude>
+        <inventory-list-id>acn-inventory</inventory-list-id>
+        <store-locator-enabled-flag>true</store-locator-enabled-flag>
+        <demandware-pos-enabled-flag>false</demandware-pos-enabled-flag>
+        <pos-enabled-flag>true</pos-enabled-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">acn-inventory</custom-attribute>
+        </custom-attributes>
+    </store>
+	
+	<store store-id="morumbi">
+        <name>Morumbi</name>
+		<address1>Av. Comendador Adibo Ares, 275 - Morumbi</address1>
+		<city>São Paulo</city>
+		<postal-code>05613-000</postal-code>
+		<state-code>SP</state-code>
+        <phone>(11) 3758-3737</phone>
+		<store-hours xml:lang="x-default">Seg/Sex 08 às 18h | Sáb 09 às 14h</store-hours>
+        <latitude>-23.593922</latitude>
+		<longitude>-46.709969</longitude>
+        <inventory-list-id>acn-inventory</inventory-list-id>
+        <store-locator-enabled-flag>true</store-locator-enabled-flag>
+        <demandware-pos-enabled-flag>false</demandware-pos-enabled-flag>
+        <pos-enabled-flag>true</pos-enabled-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">acn-inventory</custom-attribute>
+        </custom-attributes>
+    </store>
+	
+	<store store-id="itaquera">
+        <name>Itaquera</name>
+		<address1>Av. José Pinheiro Borges, 299 - Itaquera</address1>
+		<city>São Paulo</city>
+		<postal-code>08220-010</postal-code>
+		<state-code>SP</state-code>
+        <phone>(11) 3632-5589</phone>
+		<store-hours xml:lang="x-default">Seg/Sex 08 às 18h | Sáb 09 às 14h</store-hours>
+        <latitude>-23.5483453</latitude>
+		<longitude>-46.475007</longitude>
+        <inventory-list-id>acn-inventory</inventory-list-id>
+        <store-locator-enabled-flag>true</store-locator-enabled-flag>
+        <demandware-pos-enabled-flag>false</demandware-pos-enabled-flag>
+        <pos-enabled-flag>true</pos-enabled-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">acn-inventory</custom-attribute>
+        </custom-attributes>
+    </store>
+	
+	<store store-id="aricanduva">
+        <name>Aricanduva</name>
+		<address1>Av. Aricanduva, 555 - Jardim Santo Antonio</address1>
+		<city>São Paulo</city>
+		<postal-code>08221-010</postal-code>
+		<state-code>SP</state-code>
+        <phone>(11) 3234-5477</phone>
+		<store-hours xml:lang="x-default">Seg/Sex 08 às 18h | Sáb 09 às 14h</store-hours>
+        <latitude>-23.5594166</latitude>
+		<longitude>-46.5455305</longitude>
+        <inventory-list-id>acn-inventory</inventory-list-id>
+        <store-locator-enabled-flag>true</store-locator-enabled-flag>
+        <demandware-pos-enabled-flag>false</demandware-pos-enabled-flag>
+        <pos-enabled-flag>true</pos-enabled-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">acn-inventory</custom-attribute>
+        </custom-attributes>
+    </store>
+	
+	<store store-id="climaco">
+        <name>Climaco</name>
+		<address1>Estr. das Lágrimas, 3554 - São João Climaco</address1>
+		<city>São Paulo</city>
+		<postal-code>04244-000</postal-code>
+		<state-code>SP</state-code>
+        <phone>(11) 3048-4544</phone>
+		<store-hours xml:lang="x-default">Seg/Sex 08 às 18h | Sáb 09 às 14h</store-hours>
+        <latitude>-23.6390583</latitude>
+		<longitude>-46.598939</longitude>
+        <inventory-list-id>acn-inventory</inventory-list-id>
+        <store-locator-enabled-flag>true</store-locator-enabled-flag>
+        <demandware-pos-enabled-flag>false</demandware-pos-enabled-flag>
+        <pos-enabled-flag>true</pos-enabled-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">acn-inventory</custom-attribute>
+        </custom-attributes>
+    </store>
+	
+	<store store-id="mandaqui">
+        <name>Mandaqui</name>
+		<address1>Av. Eng. Caetano Álvares, 6000 - Mandaqui</address1>
+		<city>São Paulo</city>
+		<postal-code>02413-100</postal-code>
+		<state-code>SP</state-code>
+        <phone>(11) 3321-6868</phone>
+		<store-hours xml:lang="x-default">Seg/Sex 08 às 18h | Sáb 09 às 14h</store-hours>
+        <latitude>-23.5317541</latitude>
+		<longitude>-46.5980101</longitude>
+        <inventory-list-id>acn-inventory</inventory-list-id>
+        <store-locator-enabled-flag>true</store-locator-enabled-flag>
+        <demandware-pos-enabled-flag>false</demandware-pos-enabled-flag>
+        <pos-enabled-flag>true</pos-enabled-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">acn-inventory</custom-attribute>
+        </custom-attributes>
+    </store>
+	
+	<store store-id="parelheiros">
+        <name>Parelheiros</name>
+		<address1>Rua Euzébio Coghi, 841 - Jardim Roschel</address1>
+		<city>São Paulo</city>
+		<postal-code>04883-290</postal-code>
+		<state-code>SP</state-code>
+        <phone>(11) 3474-1229</phone>
+		<store-hours xml:lang="x-default">Seg/Sex 08 às 18h | Sáb 09 às 14h</store-hours>
+        <latitude>-23.8687999</latitude>
+		<longitude>-46.7602589</longitude>
+        <inventory-list-id>acn-inventory</inventory-list-id>
+        <store-locator-enabled-flag>true</store-locator-enabled-flag>
+        <demandware-pos-enabled-flag>false</demandware-pos-enabled-flag>
+        <pos-enabled-flag>true</pos-enabled-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">acn-inventory</custom-attribute>
+        </custom-attributes>
+    </store>
+	
+	<store store-id="guarulhos">
+        <name>Guarulhos</name>
+		<address1>Av. Dr. Renato de Andrade Maia, 875 - Parque Renato Maia</address1>
+		<city>São Paulo</city>
+		<postal-code>07114-000</postal-code>
+		<state-code>SP</state-code>
+        <phone>(11) 3239-8208</phone>
+		<store-hours xml:lang="x-default">Seg/Sex 08 às 18h | Sáb 09 às 14h</store-hours>
+        <latitude>-23.4825275</latitude>
+		<longitude>-46.4662822</longitude>
+        <inventory-list-id>acn-inventory</inventory-list-id>
+        <store-locator-enabled-flag>true</store-locator-enabled-flag>
+        <demandware-pos-enabled-flag>false</demandware-pos-enabled-flag>
+        <pos-enabled-flag>true</pos-enabled-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">acn-inventory</custom-attribute>
+        </custom-attributes>
+    </store>
+	
+	<store store-id="paulista">
+        <name>Paulista</name>
+		<address1>v. Paulista, 407 - Bela Vista</address1>
+		<city>São Paulo</city>
+		<postal-code>01311-000</postal-code>
+		<state-code>SP</state-code>
+        <phone>(11) 3239-4142</phone>
+		<store-hours xml:lang="x-default">Seg/Sex 08 às 18h | Sáb 09 às 14h</store-hours>
+        <latitude>-23.5827516</latitude>
+		<longitude>-46.6738447</longitude>
+        <inventory-list-id>acn-inventory</inventory-list-id>
+        <store-locator-enabled-flag>true</store-locator-enabled-flag>
+        <demandware-pos-enabled-flag>false</demandware-pos-enabled-flag>
+        <pos-enabled-flag>true</pos-enabled-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">acn-inventory</custom-attribute>
+        </custom-attributes>
+    </store>
+	
+	<store store-id="granjaviana">
+        <name>Granja Viana</name>
+		<address1>Estrada da Aldeia, 186</address1>
+		<city>São Paulo</city>
+		<postal-code>06709-300</postal-code>
+		<state-code>SP</state-code>
+        <phone>(11) 98803-6778</phone>
+		<store-hours xml:lang="x-default">Seg/Sex 08 às 18h | Sáb 09 às 14h</store-hours>
+        <latitude>-23.5988451</latitude>
+		<longitude>-46.8103109</longitude>
+        <inventory-list-id>acn-inventory</inventory-list-id>
+        <store-locator-enabled-flag>true</store-locator-enabled-flag>
+        <demandware-pos-enabled-flag>false</demandware-pos-enabled-flag>
+        <pos-enabled-flag>true</pos-enabled-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">acn-inventory</custom-attribute>
+        </custom-attributes>
+    </store>
+
+	<store store-id="sbc">
+        <name>São Bernardo do Campo</name>
+		<address1>Rua José Bonifacio, 59 - Centro</address1>
+		<city>São Bernardo do Campo</city>
+		<postal-code>09721-160</postal-code>
+		<state-code>SP</state-code>
+        <phone>(11) 3639-9999</phone>
+		<store-hours xml:lang="x-default">Seg/Sex 08 às 18h | Sáb 09 às 14h</store-hours>
+        <latitude>-23.7138306</latitude>
+		<longitude>-46.5583358</longitude>
+        <inventory-list-id>acn-inventory</inventory-list-id>
+        <store-locator-enabled-flag>true</store-locator-enabled-flag>
+        <demandware-pos-enabled-flag>false</demandware-pos-enabled-flag>
+        <pos-enabled-flag>true</pos-enabled-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">acn-inventory</custom-attribute>
+        </custom-attributes>
+    </store>
+	
+    <store store-id="pnLoja">
+        <name>Loja Principal</name>
+        <address1>Av. Mofarrej, 619 - Vila Leopoldina</address1>
+        <city>São Paulo</city>
+        <postal-code>02675-031</postal-code>
+        <state-code>SP</state-code>
+        <country-code>BR</country-code>
+        <phone>+551130594949</phone>
+        <store-hours xml:lang="x-default">Seg/Sex 08 às 18h | Sáb 09 às 14h</store-hours>
+        <latitude>-23.528807</latitude>
+        <longitude>-46.741725</longitude>
+        <inventory-list-id>acn-inventory</inventory-list-id>
+        <store-locator-enabled-flag>true</store-locator-enabled-flag>
+        <demandware-pos-enabled-flag>false</demandware-pos-enabled-flag>
+        <pos-enabled-flag>true</pos-enabled-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="countryCodeValue">BR</custom-attribute>
+            <custom-attribute attribute-id="inventoryListId">acn-inventory</custom-attribute>
+        </custom-attributes>
+    </store>
+
+</stores>
