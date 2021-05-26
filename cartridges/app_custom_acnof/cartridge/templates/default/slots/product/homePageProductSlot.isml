@@ -1,0 +1,15 @@
+<isinclude template="/components/modules" />
+
+<div class="homepage-product-listing row">
+    <div class="container text-center text-white card"
+        style="padding:1em; margin-top:1em; background:#79bb26;">
+        <b>${Resource.msg('title.maisVendidos', 'common', null)}</b>
+    </div>
+
+    <isloop items="${slotcontent.content}" var="product" status="loopState">
+        <div class="col-6 col-sm-4">
+                <isinclude
+                    url="${URLUtils.url('Tile-Show', 'pid', product.ID, 'pview', 'tile', 'ratings', true, 'swatches', true)}" />
+        </div>
+    </isloop>
+</div>
