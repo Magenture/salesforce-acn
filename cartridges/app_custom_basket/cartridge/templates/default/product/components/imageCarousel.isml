@@ -35,16 +35,13 @@
 
 <style>
     .zoom {
-        transition: transform .2s;
         margin: 0 auto;
         z-index: 99;
-
+        transform-origin: 50% 50%;
+        transition: transform .5s, filter .5s ease-out;
     }
 
     .zoom:hover {
         transform: scale(1.6);
-        cursor: -moz-zoom-in;
-        cursor: -webkit-zoom-in;
-        cursor: zoom-in;
     }
 </style>
