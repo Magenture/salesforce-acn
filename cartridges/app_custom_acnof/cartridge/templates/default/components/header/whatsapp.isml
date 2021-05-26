@@ -1,0 +1,5 @@
+<div>
+  <a href="${Resource.msg('whatsapp.link', 'whatsapp', null)}" target="_blank">	 
+  <span><i class="fa fa-whatsapp"></i></span> ${Resource.msg('whatsapp.contact.msgnow', 'whatsapp', null)} </a>
+  <p><i>${Resource.msg('whatsapp.schedule', 'whatsapp', null)}</i></p>
+</div>
