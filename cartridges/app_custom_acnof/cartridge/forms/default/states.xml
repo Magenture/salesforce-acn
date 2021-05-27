@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<form xmlns="http://www.demandware.com/xml/form/2008-04-19">
+	<field formid="stateCode" label="label.input.state" type="string" mandatory="true" binding="stateCode" missing-error="address.state.missing" value-error="address.field.invalid" parse-error="error.message.required">
+		<options>
+			<option optionid="" 	label="resource.select" 		value=""/>
+
+			<option optionid="AC" 	label="state.br.Acre" 		    value="AC"/>
+			<option optionid="AL" 	label="state.br.Alagoas" 		value="AL"/>
+			<option optionid="AP" 	label="state.br.Amapa" 	        value="AP"/>
+			<option optionid="AM" 	label="state.br.Amazonas" 		value="AM"/>
+			<option optionid="BA" 	label="state.br.Bahia" 	    	value="BA"/>
+			<option optionid="CE" 	label="state.br.Ceara" 	        value="CE"/>
+			<option optionid="DF" 	label="state.br.DistritoFederal" value="DF"/>
+			<option optionid="CT" 	label="state.us.connecticut" 	value="CT"/>
+			<option optionid="ES" 	label="state.br.EspiritoSanto" 	value="ES"/>
+			<option optionid="GO" 	label="state.br.Goias" 			value="GO"/>
+			<option optionid="MA" 	label="state.br.Maranhao" 		value="MA"/>
+			<option optionid="MG" 	label="state.br.MatoGrosso" 	value="MG"/>
+			<option optionid="MS" 	label="state.br.MatoGrossodoSul" value="MS"/>
+			<option optionid="MG" 	label="state.br.MinasGerais" 	value="MG"/>
+			<option optionid="PA" 	label="state.br.Para" 			value="PA"/>
+			<option optionid="PB"	label="state.br.Paraiba" 		value="PB"/>
+			<option optionid="PR"	label="state.br.Parana" 		value="PR"/>
+			<option optionid="PE"	label="state.br.Pernambuco" 	value="PE"/>
+			<option optionid="PI"	label="state.br.Piaui" 		    value="PI"/>
+			<option optionid="RJ"	label="state.br.RiodeJaneiro" 	value="RJ"/>
+			<option optionid="RN"	label="state.br.RioGrandedoNorte" 	value="RN"/>
+			<option optionid="RS"	label="state.br.RioGrandedoSul" 	value="RS"/>
+			<option optionid="RO"	label="state.br.Rondonia" 		value="RO"/>
+			<option optionid="RR"	label="state.br.Roraima"	    value="RR"/>
+			<option optionid="SC"	label="state.br.SantaCatarina" 	value="SC"/>
+			<option optionid="SP"	label="state.br.SaoPaulo" 		value="SP"/>
+			<option optionid="SE"	label="state.br.Sergipe" 	    value="SE"/>
+			<option optionid="TO"	label="state.br.Tocantins" 		value="TO"/>
+		</options>
+	</field>
+</form>
