@@ -209,6 +209,8 @@ server.post(
     csrfProtection.validateAjaxRequest,
     function (req, res, next) {
         var CustomerMgr = require('dw/customer/CustomerMgr');
+        var URLUtils = require('dw/web/URLUtils');
+    
         var Resource = require('dw/web/Resource');
 
         var formErrors = require('*/cartridge/scripts/formErrors');
@@ -332,12 +334,23 @@ server.post(
                     accountHelpers.sendCreateAccountEmail(authenticatedCustomer.profile);
 
                     res.setViewData({ authenticatedCustomer: authenticatedCustomer });
-                    res.json({
+                    res.redirect(URLUtils.url('Cart-Show'));
+
+                    /*res.json({
                         success: true,
                         redirectUrl: accountHelpers.getLoginRedirectURL(req.querystring.rurl, req.session.privacyCache, true)
-                    });
+                    });*/
+                    // https://zzrl-039.sandbox.us01.dx.commercecloud.salesforce.com/on/demandware.store/Sites-acnof-Site/default/Cart-Show
+                    /*res.render('/checkout/checkoutLogin', {
+                        rememberMe: rememberMe,
+                        userName: userName,
+                        actionUrl: actionUrl,
+                        details: details,
+                        reportingURLs: reportingURLs,
+                        oAuthReentryEndpoint: 2
+                    });*/
 
-                    req.session.privacyCache.set('args', null);
+                    //req.session.privacyCache.set('args', null);
                 } else {
                     res.json({
                         fields: formErrors.getFormErrors(registrationForm)
